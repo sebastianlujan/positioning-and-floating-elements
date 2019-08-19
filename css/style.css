@@ -49,7 +49,28 @@ body{
 
   #header{
       display: inline-block;
+      text-align: center;
       height: 30px;
       width: 100%;
       background-color: gray;
+      /*10px 6px 1px 15px 15px*/
   }
+
+  .s-menu-logo {
+    width: 20px;
+  }
+
+
+  .logo {
+    height: 30px;
+  }
+
+.s-user-img {
+
+}
+
+
+
+
+
+
