@@ -1,12 +1,13 @@
+
 body{
-    min-width: 550px;
+    min-width: 630px;
     margin: 0px;
     padding: 0px;
   }
 
   #container{
     padding-left: 200px ;
-    padding-right: 150px ;
+    padding-right: 190px ;
   }
 
   #center{
@@ -32,12 +33,14 @@ body{
   }
 
   #container .column{
+    padding-bottom: 310px ;
+    margin-bottom: -300px;
     position: relative;
     float:left;
+    overflow:hidden;
   }
 
   #footer{
-      display: inline-block;
       height: 30px;
       width: 100%;
       clear:both;
