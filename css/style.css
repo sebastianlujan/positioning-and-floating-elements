@@ -1,1 +1,46 @@
-/* here goes the styles */
+body{
+    min-width: 550px
+  }
+
+  #container{
+    padding-left: 200px ;
+    padding-right: 150px ;
+  }
+
+  #center{
+    width: 100%;
+    background-color: peru;
+  }
+
+  #left{
+    margin-left: -100%;
+    width: 200px;
+    right: 200px;
+    background-color: green;
+  }
+
+  #right{
+    margin-right: -150px;
+    width: 150px;
+    background-color: red;
+  }
+
+  #container .column{
+    position: relative;
+    float:left;
+  }
+
+  #footer{
+      display: inline-block;
+      height: 30px;
+      width: 100%;
+      clear:both;
+      background-color: purple;
+  }
+
+  #header{
+      display: inline-block;
+      height: 30px;
+      width: 100%;
+      background-color: gray;
+  }
