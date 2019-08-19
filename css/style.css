@@ -50,27 +50,26 @@ body{
   #header{
       display: inline-block;
       text-align: center;
-      height: 30px;
+      height: 40px;
       width: 100%;
-      background-color: gray;
+      background-color: white;
       /*10px 6px 1px 15px 15px*/
   }
 
   .s-menu-logo {
-    width: 20px;
+    margin-left: 30px;
+    float:left;
+    height: 30px;
+    margin-top: 10px;
   }
-
 
   .logo {
-    height: 30px;
+    height: 50px;
   }
 
-.s-user-img {
-
-}
-
-
-
-
-
-
+  .s-user-img {
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 30px;
+    float: right;
+  }
