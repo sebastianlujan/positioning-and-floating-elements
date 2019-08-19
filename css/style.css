@@ -104,9 +104,37 @@ body{
 
   .title-img-descrption{
     font-size: 12px;
+    margin-top: 10px; 
   }
 
   .title-img-author{
     font-size: 9px;
 
   }
+
+  .social-items{
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+  }
+
+  .social-buttons{
+    height: 15px;
+    float: right;
+    margin-right: 20px;
+  }
+
+  .article-date{
+    float: left;
+    display: inline-block;
+
+  }
+
+
+
+
+
+
+
+
