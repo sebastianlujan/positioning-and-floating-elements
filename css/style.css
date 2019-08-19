@@ -1,5 +1,7 @@
 body{
-    min-width: 550px
+    min-width: 550px;
+    margin: 0px;
+    padding: 0px;
   }
 
   #container{
@@ -9,20 +11,24 @@ body{
 
   #center{
     width: 100%;
-    background-color: peru;
+    background-color: #2196f38a;
+    padding: 10px 20px;
   }
 
   #left{
     margin-left: -100%;
-    width: 200px;
-    right: 200px;
-    background-color: green;
+    width: 180px;
+    right: 240px;
+    background-color: #00800085;
+    padding: 10px 10px;
+
   }
 
   #right{
-    margin-right: -150px;
-    width: 150px;
-    background-color: red;
+    margin-right: -190px;
+    width: 130px;
+    background-color: #ff000096;
+    padding: 10px 10px;
   }
 
   #container .column{
