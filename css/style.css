@@ -131,6 +131,20 @@ body{
 
   }
 
+.text-columns{
+  margin-right: 20%;
+  margin-left:  20%;
+}
+
+
+.img-wrapper-1 > img{
+  width: 100%; 
+}
+
+.img-wrapper-1{
+  margin-left: -20%;
+  margin-right: -20%;
+}
 
 
 
