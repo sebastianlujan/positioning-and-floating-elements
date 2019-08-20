@@ -44,6 +44,7 @@ body{
     position: relative;
     float:left;
     overflow:hidden;
+    margin-top:50px;
   }
 
   #footer{
@@ -54,11 +55,18 @@ body{
   }
 
   #header{
-      display: inline-block;
-      text-align: center;
-      height: 50px;
-      width: 100%;
-      background-color: gray;
+    margin: 0px;
+  }
+
+  .nav-bar{
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index:1;
+    border: 1px solid #EEE;
   }
 
   .s-menu-logo {
@@ -104,7 +112,7 @@ body{
 
   .title-img-descrption{
     font-size: 12px;
-    margin-top: 10px; 
+    margin-top: 10px;
   }
 
   .title-img-author{
@@ -134,11 +142,12 @@ body{
 .text-columns{
   margin-right: 20%;
   margin-left:  20%;
+
 }
 
 
 .img-wrapper-1 > img{
-  width: 100%; 
+  width: 100%;
 }
 
 .img-wrapper-1{
@@ -146,9 +155,17 @@ body{
   margin-right: -20%;
 }
 
+.video-wrapper{
+  margin: 0px;
+}
 
+.article-img{
+  width: 100%;
+  text-align: center;
+}
 
+  p{
+  line-height: 1.5;
+  font-size: 1.22rem;
 
-
-
-
+}
