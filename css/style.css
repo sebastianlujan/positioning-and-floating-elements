@@ -20,6 +20,34 @@ body{
     padding-right: 190px ;
   }
 
+  #container-featured{
+    padding-left: 150px ;
+    padding-right: 150px ;
+  }
+
+  #left-featured{
+    margin-left: 0;
+    width: 75%;
+    background-color: #00123085;
+    padding: 10px 10px;
+  }
+
+  #right-featured{
+    margin-right: -10%;
+    width: 25%;
+    background-color: #00900085;
+    padding: 10px 10px;
+  }
+
+  #container-featured .column-featured{
+    padding-bottom: 310px ;
+    margin-bottom: -300px;
+    position: relative;
+    float:left;
+    overflow:hidden;
+    margin-top:20px;
+  }
+
   #center{
     width: 100%;
     background-color: #2196f38a;
@@ -55,7 +83,7 @@ body{
       height: 30px;
       width: 100%;
       clear:both;
-      background-color: purple;
+      background-color: #51515110;
   }
 
   #header{
