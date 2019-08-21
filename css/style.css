@@ -345,3 +345,69 @@ p{
   list-style: none;
   padding: 0;
 }
+
+.links-sitemap{
+  float: left;
+}
+
+#container-sitemap{
+  background-color: peru;
+  padding-left: 150px;
+  padding-right: 150px;
+  clear: both;
+
+}
+
+.sitemap-column{
+  position: relative;
+  float: left;
+  padding-bottom: 310px;
+  margin-bottom: -300px;
+  overflow: hidden; 
+}
+
+#sitemap-1{
+  margin-left: 0;
+  background-color: peru;
+  width: 16.6%;
+
+}
+
+#sitemap-2{
+  margin-right: auto;
+  background-color: #cca;
+  width: 16.6%;
+
+}
+
+#sitemap-3{
+  margin-right: auto;
+  background-color: red;
+  width: 16.6%;
+}
+
+
+#sitemap-4{
+  margin-right: auto;
+  background-color: grey;
+  width: 16.6%;
+}
+
+#sitemap-5{
+  margin-right: auto;
+  background-color: orange;
+  width: 16.6%;
+}
+
+#sitemap-6{
+  margin-right: auto;
+  background-color: lime;
+  width: 17%;
+}
+
+.sidemap-links a{
+  display: block;
+}
+
+
+
