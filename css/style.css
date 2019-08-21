@@ -32,8 +32,10 @@ body{
   #left-featured{
     margin-left: 0;
     width: 75%;
-    background-color: #00123085;
+    background-color: #fff;
     padding: 10px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
   }
 
   #right-featured{
@@ -293,12 +295,12 @@ p{
 
 .fig-feature  {
 
-  width: 23%;
-  margin: 0;
+  width: 32.5%;
+  margin: 0 auto;
   background-color: white;
   padding: 0px;
   display: inline-block;
-  margin-right: 10px;
+  height: auto;
 
 }
 
@@ -317,14 +319,29 @@ p{
   margin: 5px;
 }
 
- 
-
 .title-featured{
   font-size: 1.125rem;
   line-height: 22px;
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+.item-popular{
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+  line-height: 1.375;
+}
+
+.list-popular li{
+  border-top: 1px solid #eee;
+  padding: 10px 0px;
 
 }
 
+.list-popular{
+  border-bottom: 1px solid #eee;
+  list-style: none;
+  padding: 0;
+}
