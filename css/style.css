@@ -88,6 +88,7 @@ body{
     position: relative;
     float:left;
     margin-top:50px;
+    overflow: hidden;
   }
 
   #footer{
@@ -485,30 +486,16 @@ p{
   padding-top: 20px;
 }
 
-#editors-pick{
-  width:100%;
-  margin-left: -50px;
-}
-
 .img-editors{
-  width: 50%;
-}
-
-.desc-editors{
+  width: 40px;
+  padding: 0 10px 5px 0;
   float: left;
+}
+
+.descr-text{
   font-size: 1rem;
-  width: 100%;
 }
 
-.title-editors{
-  font-size:1.5rem;
-  font-weight: bold;
-  border-bottom: 1px solid gray;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-}
-
-.inline-display-editors div{
-  display:inline;
-  width: 100%;
+#editors-pick .inline-display { 
+  margin-bottom: 10px;
 }
