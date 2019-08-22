@@ -487,7 +487,6 @@ p{
 
 #editors-pick{
   width:100%;
-  display: inline-block;
   margin-left: -50px;
 }
 
@@ -509,6 +508,7 @@ p{
   margin-bottom: 15px;
 }
 
-.inline-display-editors span{
-  display:inline-block;
+.inline-display-editors div{
+  display:inline;
+  width: 100%;
 }
