@@ -87,11 +87,12 @@ body{
   }
 
   #footer{
-      height: 30px;
+      height: 40px;
       width: 100%;
       bottom: 0;
-      clear:both;
-      background-color: #white;
+      position: fixed;
+      clear: both;
+      background-color: white;
   }
 
 #footer div {
@@ -382,6 +383,7 @@ p{
   position: relative;
   float: left;
   overflow: hidden;
+  padding-bottom: 50px;
 }
 
 #sitemap-1{
