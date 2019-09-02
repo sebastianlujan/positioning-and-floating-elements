@@ -89,9 +89,21 @@ body{
   #footer{
       height: 30px;
       width: 100%;
+      bottom: 0;
       clear:both;
-      background-color: #51515110;
+      background-color: #white;
   }
+
+#footer div{
+  text-align: center;
+}
+  .footer-text{
+    font-size: 12px;
+    color: gray;
+    font-family: 'NYTCheltenham-MediumItalic';
+
+  }
+
 
   #header{
     margin: 0px;
@@ -361,9 +373,7 @@ p{
 .sitemap-column{
   position: relative;
   float: left;
-  padding-bottom: 310px;
-  margin-bottom: -300px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 #sitemap-1{
