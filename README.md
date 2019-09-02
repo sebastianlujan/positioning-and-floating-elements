@@ -1,5 +1,3 @@
-# positioning-and-floating-elements
-
 # Positioning and Floating Elements
 ### New York Times Clone page
 #### By: [Sebastian Lujan](https://github.com/sebastianlujan) and [Eduardo 'Usagi' Bonilla](https://github.com/usagib)
@@ -8,15 +6,15 @@ The New York Times has been a leader in experimenting with the inclusion of mult
 
 This project consists of making a clone of a New York Times article page. using familiar concepts such as:
 
-..*Embedding images
-..*Working with forms (buttons in this case)
-..*Floats and positioning
-..*The box model
+..* Embedding images
+..* Working with forms (buttons in this case)
+..* Floats and positioning
+..* The box model
 
 
 [The Odin Project - Specifications](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
-### Screenshot!
+### Screenshots!
 
 ![Screenshot1](img/ss1.png)
 
